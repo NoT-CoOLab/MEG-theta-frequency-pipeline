@@ -40,9 +40,7 @@ external/
 MEG data
     ↓
 LCMV hippocampal source reconstruction
-    ↓
-Hippocampal source extraction
-    ↓
+    ↓    
 Theta-band GED
     ↓
 CHO oscillation detection
