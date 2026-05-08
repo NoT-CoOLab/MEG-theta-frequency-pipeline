@@ -92,29 +92,21 @@ Please cite the original CHO publication when using this pipeline.
 
 # How to use
 
-## 1. Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/NoT-CoOLab/MEG-theta-frequency-pipeline.git
 ```
 
----
-
-## 2. Install dependencies
-
----
-
-## 3. Obtain the CHO dependency
+### 2. Install dependencies
+### 3. Obtain the CHO dependency
 
 Please obtain the required CHO MATLAB files from the original authors/source and place them in:
 
 ```text
 external/CHO/
 ```
-
----
-
-## 4. Run hippocampal source reconstruction
+### 4. Run hippocampal source reconstruction
 
 Run:
 
@@ -130,9 +122,7 @@ sub-XX_desc-lcmv-stc.mat
 sub-XX_desc-lcmv-metadata.mat
 ```
 
----
-
-## 5. Run theta frequency estimation
+### 5. Run theta frequency estimation
 
 Open MATLAB and run:
 
@@ -144,21 +134,21 @@ Before running:
 - edit paths in `run_theta_frequency_pipeline.m`
 - ensure all dependencies are on the MATLAB path
 - define the parameters 
----
 
-# Analysis windows
+
+### Analysis windows
 
 GED and CHO are applied within analysis windows.
 
 Two modes are supported.
 
-## Use loaded epochs directly
+### Use loaded epochs directly
 
 ```matlab
 cfg.window_mode = 'as_loaded';
 ```
 
-## Fixed-length windows
+### Fixed-length windows
 
 ```matlab
 cfg.window_mode = 'fixed';
@@ -167,7 +157,7 @@ cfg.window_size = 1000;
 
 ---
 
-# Output
+## Output
 
 The pipeline outputs one `.mat` file per subject containing:
 
