@@ -183,8 +183,4 @@ Please also cite:
 ---
 
 # Contact
-For questions regarding the pipeline, please open an issue or contact:
-
-```text
-[Eleonora Marcantoni / eleonoramarcantoni@gmail.com]
-```
+For remaining questions, issues, or suggestions, please use the GitHub [issue tracker](https://github.com/NoT-CoOLab/MEG-theta-frequency-pipeline/issues).
