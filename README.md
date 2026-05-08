@@ -56,8 +56,8 @@ Theta centre-frequency estimation
 
 ## Python
 
-- Python 3.x
-- MNE-Python
+- Python 3.10.8
+- MNE-Python 1.9.0
 - NumPy
 - SciPy
 
