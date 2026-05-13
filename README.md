@@ -77,12 +77,10 @@ Theta centre-frequency estimation
 
 This pipeline requires the CHO implementation described in:
 
-Cho et al. (2024). *Novel Cyclic Homogeneous Oscillation Detection Method for High Accuracy and Specific Characterization of Neural Dynamics.*
-
-[https://doi.org/10.1101/2023.10.04.560843](https://doi.org/10.1101/2023.10.04.560843)
+[Cho et al. (2024)](https://elifesciences.org/articles/91605). *Novel Cyclic Homogeneous Oscillation Detection Method for High Accuracy and Specific Characterization of Neural Dynamics.*
 
 The CHO implementation is not distributed with this repository.
-Please obtain the required CHO MATLAB files from the original authors/source and place them in:
+Please obtain the required CHO MATLAB files from the original [repository](https://github.com/neurotechcenter/CHO) and place them in:
 
 ```text
 external/CHO/
