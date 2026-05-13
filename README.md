@@ -90,7 +90,7 @@ Please cite the original CHO publication when using this pipeline.
 
 # How to use
 
-### 1. Clone the repository
+### 1. Clone this repository (or download the files) 
 
 ```bash
 git clone https://github.com/NoT-CoOLab/MEG-theta-frequency-pipeline.git
