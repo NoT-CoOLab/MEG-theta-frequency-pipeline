@@ -30,6 +30,10 @@ code/
 
 external/
     CHO/
+        CHO_v22.m
+        fft_bandpass_filtering.m
+        fft_spectrum.m
+        oof_fitting_v2.m
 ```
 
 ---
